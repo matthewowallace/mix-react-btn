@@ -1,19 +1,29 @@
 {
   "name": "@mix/react-btn",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "UI library for Mix.io Projects",
   "main": "src/index.ts",
-  "files": ["src/**/*"],
+  "files": [
+    "src/**/*"
+  ],
   "repository": {
-    "type":"git",
+    "type": "git",
     "url": "https://github.com/matthewowallace/mix-react-btn.git"
   },
   "bugs": {
     "url": "https://github.com/matthewowallace/mix-react-btn/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "author": "Matthew Wallace",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  },
+  "release": {
+    "branches": ["main", "next"]
+  }
+
 }
