@@ -1,5 +1,5 @@
 {
-  "name": "@matthewowallce/mix-react-btn",
+  "name": "@matthewowallace/mix-react-btn",
   "version": "0.0.0-development",
   "description": "UI library for Mix.io Projects",
   "main": "src/index.ts",
@@ -30,6 +30,11 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/react": "^17.0.39",
+    "@types/styled-components": "^5.1.22"
   }
 }
