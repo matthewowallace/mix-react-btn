@@ -1,5 +1,5 @@
 {
-  "name": "@uiuxinventor/react-btn",
+  "name": "@matthewowallce/mix-react-btn",
   "version": "0.0.0-development",
   "description": "UI library for Mix.io Projects",
   "main": "src/index.ts",
@@ -23,10 +23,13 @@
     "semantic-release": "^19.0.2"
   },
   "release": {
-    "branches": ["main", "next"]
+    "branches": [
+      "main",
+      "next"
+    ]
   },
   "publishConfig": {
     "access": "public",
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
